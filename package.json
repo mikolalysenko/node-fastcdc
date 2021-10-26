@@ -13,8 +13,10 @@
   "repository": "git@github.com:mikolalysenko/node-fastcdc.git",
   "author": "Mikola Lysenko",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "cargo-cp-artifact": "^0.1"
+  },
+  "devDependencies": {
   },
   "keywords": [
     "fastcdc",
