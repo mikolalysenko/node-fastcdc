@@ -1,0 +1,21 @@
+[package]
+name = "fastcdc"
+version = "1.0.0"
+description = "NodeJS bindings for rust-fastcdc"
+authors = ["Mikola Lysenko"]
+license = "ISC"
+edition = "2018"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fastcdc = "1.0.5"
+
+[dependencies.neon]
+version = "0.9"
+default-features = false
+features = ["napi-6"]

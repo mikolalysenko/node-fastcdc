@@ -1,0 +1,25 @@
+{
+  "name": "fastcdc",
+  "version": "1.0.0",
+  "description": "NodeJS bindings for fastcdc-rs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "build-debug": "npm run build --",
+    "build-release": "npm run build -- --release",
+    "install": "npm run build-release",
+    "test": "cargo test"
+  },
+  "author": "Mikola Lysenko",
+  "license": "ISC",
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1"
+  },
+  "keywords": [
+    "fastcdc",
+    "content",
+    "defined",
+    "chunking",
+    "compression"
+  ]
+}

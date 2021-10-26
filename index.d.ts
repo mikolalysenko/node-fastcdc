@@ -1,0 +1,1 @@
+export default function fastCDC (bytes:ArrayBuffer|Uint8Array, options?:number|Partial<{ min:number, avg:number, max:number }>) : number[]
