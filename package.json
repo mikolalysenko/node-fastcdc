@@ -1,6 +1,6 @@
 {
   "name": "fastcdc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS bindings for fastcdc-rs",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,7 @@
   "dependencies": {
     "cargo-cp-artifact": "^0.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "fastcdc",
     "content",
